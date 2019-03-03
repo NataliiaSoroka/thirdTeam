@@ -5,9 +5,57 @@ box-sizing: border-box;
 }
 .header{
     width: 30%;
-    background-color: #666;
     float: right;
-    height: 100px;
+    display: flex;
+    z-index: 10;
+    .menu-icon{
+        width: 40px;
+        height: 25px;
+        text-align: center;
+        margin: 40px 20px 0px 0px;
+        background:white;
+        border-radius: 5px;
+        cursor: pointer;
+        position: fixed;
+        top: 0;
+        right: 0;
+        font-size: 40;
+       &:hover{
+           color: pink;
+       }
+    }
+       .header-nav{
+        width: 100%;
+        height: 1000px;
+        background: #585858;
+        padding: 40px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 0;
+        right: -410px;
+      
+          h2{
+              font-size: 26px;
+              letter-spacing: 7px;
+              margin-bottom: 20px;
+          }
+          .nav{
+               letter-spacing: 2px;
+               align-content: center;;
+               border-bottom: 1px solid #959b9c;
+               height: 70px;
+               justify-content: center;
+               padding-top: 20px;
+               cursor: pointer;
+               &:last-child{
+                   border: none;
+               }
+               &:hover{
+                   color: pink;
+               }
+          }
+        }
 }
 @import 'variables';
 .conteiner {
