@@ -57,3 +57,24 @@ box-sizing: border-box;
           }
         }
 }
+@import 'variables';
+.conteiner {
+    width: 1200px;
+    margin: auto; 
+  }
+  
+  .image {
+    margin-top: 20px;
+    padding-top: 5px; 
+  }
+  
+  .pic1 {
+    padding: 20px;
+    float: left;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    
+  }
